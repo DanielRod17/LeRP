@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Aug 14, 2018, 3:12:04 PM
+    Author     : luisr
+*/
+body, html{
+    width:                          100%;
+    min-height:                     100%;
+    margin:                         0;
+}
+#container{
+    width:                          100%;
+    height:                         100%;
+    color:                          black;
+}
+#formulario{
+    width:                          100%;
+    height:                         50%;
+    /*background-color:               yellow;*/
+}
+#resultado{
+    width:                          100%;
+    height:                         50%;
+    margin-top:                     4%;
+    /*background-color:               red;*/
+}
+.formita{
+    width:                          300px;
+    margin-left:                    calc(50% - 150px);
+}
+.arriba{
+    /*background-color:               pink;*/
+    font-family:                    'Cairo';
+}
+.abajo{
+    width:                          100%;
+    margin-bottom:                  15px;
+    border-width:                   2px;
+    transition:                     all 0.2s ease;
+}
+input{
+    width:                          100%;
+    height:                         20px;
+    transition:                     all 0.2s ease;
+}
+.abajo{
+    width:                          100%;
+    height:                         30px;
+    font-size:                      100%;
+    font-family:                    'Cairo';
+    border:                         solid 1px;
+    border-color:                   rgba(150, 190, 255, 0.4);
+    transition:                     all 0.2s ease;
+}
+.abajo:hover{
+    border-color:                   rgb(61, 135, 255);
+}
+.botonSubmit{
+    /*background-color:               rgba(0, 0 ,0 , 0.8);*/
+    background-color:               rgb(96, 176, 244);
+    color:                          white;
+    border:                         none;
+    width:                          40%;
+    margin-left:                    30%;
+    font-size:                      1.5vw;
+    height:                         30px;
+    cursor:                         pointer;
+    transition:                     all 0.2s ease;
+    border-style:                   solid;
+}
+.botonSubmit:hover{
+    height:                         35px;
+    width:                          45%;
+    margin-left:                    27.5%;
+    background-color:               orange;
+    font-weight:                    bold;
+    font-size:                      2vw;
+}
+#frameLabel{
+    width:                          60%;
+    height:                         95%;
+    margin-left:                    20%;
+}
+.titulo{
+    /*background-color:               pink;*/
+    width:                          100%;
+    text-align:                     center;
+    height:                         50px;
+    line-height:                    40px;
+    font-family:                    'Cairo';
+    font-size:                      40px;
+    font-weight:                    bold;
+}

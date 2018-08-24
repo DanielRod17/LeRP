@@ -1,0 +1,74 @@
+body, html{
+    width:                          100%;
+    min-height:                     100%;
+    margin:                         0;
+}
+#container{
+    width:                          100%;
+    height:                         100%;
+    /*background-color:               red;*/
+}
+.titulo{
+    /*background-color:               pink;*/
+    width:                          100%;
+    text-align:                     center;
+    height:                         45px;
+    line-height:                    40px;
+    font-family:                    'Cairo';
+    font-size:                      40px;
+    font-weight:                    bold;
+    margin-bottom:                  20px;
+}
+#tabla{
+    width:                          90%;
+    margin-left:                    5%;
+    min-height:                     20%;
+}
+.teerre{
+    width:                          100%;
+    height:                         40px;
+    border-bottom-width:            1.5px;
+    border-bottom-style:            solid;
+    border-color:                   rgba(120, 120, 120, 0.8);
+    font-size:                      1.7vw;
+    font-family:                    'Oswald', sans-serif;
+    line-height:                    40px;
+    transition:                     all 0.2s ease;
+}
+.teerre:hover{
+    background-color:               /*rgb(96, 176, 244);*/orange;
+    color:                          white;
+}
+.teerre:hover > .updateBut{
+    background-color:               rgb(96, 176, 244);/*orange;*/
+    color:                          white;
+}
+.conf{
+    float:                          left;
+    height:                         100%;
+}
+.nombre{
+    width:                          22%;
+}
+.description{
+    width:                          50%;
+    font-size:                      1.7vw;
+}
+.labels{
+    width:                          7%;
+}
+.Date{
+    width:                          12%;
+}
+.Update{
+    width:                          9%;
+    text-align:                     center;
+    cursor:                         pointer;
+}
+.updateBut{
+    width:                          100%;
+    height:                         100%;
+    background-color:               white;
+    border:                         none;
+    color:                          black;
+}
